@@ -38,6 +38,7 @@ import dateutil.parser
 # Config
 
 # Sim params
+import dateutil
 
 REALTIME = True
 SIM_LENGTH = timedelta(days=365 * 5)
@@ -326,7 +327,7 @@ class App(object):
                     'price': asks2[0][0],
                     'size': asks2[0][1]
                 }
-            }]
+        }]
 
 
 ################################################################################
